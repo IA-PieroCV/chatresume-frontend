@@ -41,9 +41,9 @@ const classes_div = computed<string>(
 function type_text() {
   if (props.text && actual_text.value !== props.text) {
     actual_text.value = props.text?.slice(0, actual_text.value.length + 1) ?? ''
-    setTimeout(type_text, 50)
+    setTimeout(type_text, 30)
   } else {
-    setTimeout(type_text, 50)
+    setTimeout(type_text, 30)
   }
 }
 
