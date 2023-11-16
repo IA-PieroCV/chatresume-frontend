@@ -38,10 +38,10 @@ docker build -t chatbot-frontend
 
 5. Once the image is built, you can run it using the `docker run` command.
 ```bash
-docker run -p 3000:80 chatbot-frontend
+docker run -p 5173:80 chatbot-frontend
 ```
 
-**Note**: This command maps the port 80 from the container to the port 3000 in localhost. In the backend project, be sure that the CORS Middleware is set to allow this port.
+**Note**: This command maps the port 80 from the container to the port 5173 in localhost. In the backend project, be sure that the CORS Middleware is set to allow this port.
 ## Potential Improvements
 - A CI/CD pipeline is always valuable. A Github action for build and host the docker image could be potentially implemented.
 

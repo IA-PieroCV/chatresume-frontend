@@ -1,7 +1,7 @@
 <template>
   <form
     class="flex bg-white rounded-full justify-between items-center w-5/12"
-    @submit.prevent="sendHumanMessage"
+    @submit.prevent=""
   >
     <IconChat class="h-8 ml-3 mr-2 text-gray-300" />
     <input v-model="modelValue" type="text" class="w-full h-12" :placeholder="rq" />

@@ -9,6 +9,7 @@
       <p v-if="props.state" class="font-mono whitespace-normal">
         {{ actual_text }}
         <span v-if="props.text !== actual_text" class="cursor"></span>
+        <a class="gpt_link" v-if="props.text === actual_text && props.role==='ia'" href="https://chat.openai.com/g/g-oK5Dh6p5x-pierocv-chat-resume">Click here!</a>
       </p>
       <p v-else class="py-3">
         <span class="typing__dot"></span>
@@ -97,6 +98,44 @@ onMounted(() => {
   }
   100% {
     opacity: 0;
+  }
+}
+
+.gpt_link:hover {
+  background: linear-gradient(45deg, #008ac1, #69d800, #007dd0, #68d600);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: moveGradient 2s ease infinite;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@keyframes moveGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gpt_link{
+  color: rgb(0 130 130 / 1);
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  transition: 0.5s;
+}
+
+
+@keyframes party {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 </style>

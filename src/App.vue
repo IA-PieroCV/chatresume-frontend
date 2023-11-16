@@ -5,14 +5,14 @@ import ChatComponent from './components/ChatComponent.vue'
 import { ref } from 'vue'
 import type { Ref } from 'vue'
 
-const user_promt: Ref<string> = ref('')
+const user_prompt: Ref<string> = ref('')
 </script>
 
 <template>
   <div class="principal flex justify-center items-center h-full flex-col">
     <TitleComponent />
     <ChatComponent />
-    <InputTextComponent v-model="user_promt" />
+    <InputTextComponent v-model="user_prompt" />
   </div>
 </template>
 
