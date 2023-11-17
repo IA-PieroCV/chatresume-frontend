@@ -5,7 +5,7 @@ This is the frontend of the portfolio project **Chatbot Portfolio**. It uses Vue
   <img src="assets/gui.png" alt="User Interface for Chatbot app">
 </p>
 
-This frontend is a single page application for the chatbot app. It has a simple text input and chat output for the results.
+This frontend is a single page application for the chatbot app. It has a simple text input and chat output for the results. **You can test it [Here!](https://chatapp.intautomation.net)**
 
 Read the article attached [here](#).
 
