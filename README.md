@@ -5,11 +5,14 @@ This is the frontend of the portfolio project **Chatbot Portfolio**. It uses Vue
   <img src="assets/gui.png" alt="User Interface for Chatbot app">
 </p>
 
-This frontend is a single page application for the chatbot app. It has a simple text input and chat output for the results. **You can test it [Here!](https://chatapp.intautomation.net)**
+This frontend is a single page application for the chatbot app. It has a simple text input and chat output for the results. 
+<p align="center">
+<strong>You can test it <a href="https://chatapp.intautomation.net">Here!</a></strong>
+</p>
 
 Read the article attached [here](#).
 
-## Implementation Disclaimer
+## Implementation Disclaimer (**Important!**)
 After the release of Open AI GPT's, this client was modified to send a custom response redirecting to the new custom GPT in order to save cloud resources. 
 
 ## Instalation
