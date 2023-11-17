@@ -31,7 +31,7 @@ npm install
 ```bash
 npm run dev
 ```
-And open `http://localhost:3000`.
+And open `http://localhost:5173`.
 
 ### Deployment
 4. If you want to deploy this client, an nginx config file is provided linked to a Dockerfile in order to a container be created.
