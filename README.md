@@ -10,7 +10,7 @@ This frontend is a single page application for the chatbot app. It has a simple 
 <strong>You can test it <a href="https://chatapp.intautomation.net">Here!</a></strong>
 </p>
 
-Read the article attached [here](#).
+Read the article attached [here](https://medium.com/@piero.casusolv/implementing-rag-with-vue3-fastapi-and-qdrant-and-how-is-this-compared-to-openai-gpts-afa5d5e8d08f).
 
 ## Implementation Disclaimer (**Important!**)
 After the release of Open AI GPT's, this client was modified to send a custom response redirecting to the new custom GPT in order to save cloud resources. 
